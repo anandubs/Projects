@@ -72,7 +72,7 @@ WHERE CD.continent is not null
 ORDER  BY 2,3
 
 
--- Creating TEMP Table
+-- Creating CTE
 
 with popvsvac ( continent,date,location,population,new_vaccinations,peoplevaccinated)
 as
